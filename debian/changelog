@@ -1,0 +1,6 @@
+libnetfilter-cthelper (1.0.0-1) unstable; urgency=low
+
+  * Initial packaging
+
+ -- Alexander Wirt <formorer@debian.org>  Sat, 18 May 2013 13:46:25 +0200
+

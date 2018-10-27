@@ -13,4 +13,4 @@
 	dh $@
 
 override_dh_strip:
-	dh_strip --dbg-package=libnetfilter-cthelper0-dbg
+	dh_strip --dbgsym-migration='libnetfilter-cthelper0-dbg (<< 1.0.0-2~)'

@@ -1,3 +1,10 @@
+libnetfilter-cthelper (1.0.0-2) UNRELEASED; urgency=medium
+
+  * Transition to automatic debug package (from: libnetfilter-cthelper0-
+    dbg).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 27 Oct 2018 15:41:11 +0000
+
 libnetfilter-cthelper (1.0.0-1) unstable; urgency=low
 
   * Initial packaging

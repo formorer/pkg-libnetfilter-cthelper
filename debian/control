@@ -1,6 +1,6 @@
 Source: libnetfilter-cthelper
 Section: libs
-Priority: extra
+Priority: optional
 Maintainer: Alexander Wirt <formorer@debian.org>
 Build-Depends: debhelper (>= 10~), libmnl-dev (>= 1.0.1), pkg-config
 Standards-Version: 3.9.4

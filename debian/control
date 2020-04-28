@@ -2,7 +2,7 @@ Source: libnetfilter-cthelper
 Section: libs
 Priority: extra
 Maintainer: Alexander Wirt <formorer@debian.org>
-Build-Depends: debhelper (>= 9), libmnl-dev (>= 1.0.1), pkg-config
+Build-Depends: debhelper (>= 9.20160114), libmnl-dev (>= 1.0.1), pkg-config
 Standards-Version: 3.9.4
 Vcs-Git: git://github.com/formorer/pkg-libnetfilter-cthelper.git
 Vcs-Browser: https://github.com/formorer/pkg-libnetfilter-cthelper
@@ -17,20 +17,6 @@ Description: userspace-helper for netfilter library
  interface to the user-space helper infrastructure available since Linux kernel
  3.6. With this library, you register, configure, enable and disable user-space
  helpers.
-
-Package: libnetfilter-cthelper0-dbg
-Section: debug
-Architecture: any
-Depends: libnetfilter-cthelper0 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Debugging symbols for libnetfilter-cthelper0
- libnetfilter_cthelper is the userspace library that provides the programming
- interface to the user-space helper infrastructure available since Linux kernel
- 3.6. With this library, you register, configure, enable and disable user-space
- helpers.
- .
- This package provides the debugging symbols.
 
 Package: libnetfilter-cthelper0-dev
 Section: libdevel
